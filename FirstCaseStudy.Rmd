@@ -31,7 +31,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r}
 ## Reading Beers dataset 
-beers <- read.csv('C:\\Users\\tcheg\\OneDrive\\Documents\\Doing Data Science 6306\\Beers.csv', header = TRUE)
+beers <- read.csv('Beers.csv', header = TRUE)
 
 ## Displaying top 5 rows from Beer datatset
 head(beers,5)
@@ -40,7 +40,7 @@ head(beers,5)
 
 ```{r}
 ## Reading the breweries dataset
-breweries <- read.csv('C:\\Users\\tcheg\\OneDrive\\Documents\\Doing Data Science 6306\\Breweries.csv',header = TRUE)
+breweries <- read.csv('Breweries.csv',header = TRUE)
 
 ## Displaying top 5 rows from Breweries dataset
 head(breweries,5)
